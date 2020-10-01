@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.GuruBankingRealProject">
+<listeners>
+   <listener class-name="com.GuruBankingRealProject.Utilities.Reporting" />
+   </listeners>
+ <test name="LoginTest">
+   <parameter name="browser" value="chrome" />
+   
+   <classes>
+     <!--  <class name="com.GuruBankingRealProject.Testcases.TC_LoginTest_001" />  -->
+     <!-- <class name="com.GuruBankingRealProject.Testcases.TC_LoginDDT_002" /> -->
+     <class name="com.GuruBankingRealProject.Testcases.TC_AddCustomerTest_003" />
+   </classes>
+ 
+ </test>
+</suite>
